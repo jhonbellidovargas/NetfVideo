@@ -4,7 +4,10 @@
       "es6": true,
       "node": true
     },
-    "extends": ["airbnb"],
+    "extends": [
+      "airbnb",
+      "prettier"
+    ],
     "globals": {
       "document": false,
       "escape": false,
